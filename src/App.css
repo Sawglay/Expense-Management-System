@@ -13,3 +13,10 @@ header{
   font-size: 2.5 rem;
   color: #111827;
 }
+
+.dashboard{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
