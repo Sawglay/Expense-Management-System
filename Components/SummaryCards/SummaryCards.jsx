@@ -6,8 +6,18 @@ const SummaryCards = () => {
     <div className='summary-cards'>
       <div className='summary-card'>
         <h3>Hello Balance</h3>
+        <p className='amount'>1000</p>
       </div>
-      SummaryCards
+
+      <div className='summary-card'>
+        <h3>Income</h3>
+        <p className='amount'>1000</p>
+      </div>
+
+      <div className='summary-card'>
+        <h3>Expense</h3>
+        <p className='amount'>1000</p>
+      </div>  
     </div>
   )
 }
